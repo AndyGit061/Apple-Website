@@ -1,0 +1,26 @@
+.list{
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 7%;
+}
+.listItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.listItem img{
+    width: 85%;
+}
+.listItem-hover .listItemTitle{
+    color: #3888d7;
+}
+.listItemTitle{
+    font-size: 11px;
+    margin-top: 5px;
+    transition: all ease 0.3s;
+}
